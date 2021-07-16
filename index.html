@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- 2. 카카오 맵 설치 스크립트 -->
+    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+    <link rel="stylesheet" href="./main.css" >
+    <title>넷마블컴퍼니</title>
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+        <section class="topMenu">
+            <div class="topCenter">
+                <a class="logoA" href="http://pager.kr/~c11st25/portfolio/netmarble/"><img src="./img/logo.png" class="topLogo"/></a>
+                <nav class="menuArea">
+                    <a class="commMenu" href="#aboutArea">ABOUT</a>
+                    <a class="commMenu" href="#historyArea">연혁</a>
+                    <a class="commMenu" href="#contributionArea">사회공헌</a>
+                    <a class="commMenu" href="#mapArea">오시는 길</a>
+                </nav>
+            </div>
+        </section>
+        <section  id="firstArea" class="firstArea">
+            <p class="portfolioP">본 사이트는 포트폴리오 목적으로 제작되었습니다.</p>
+            <div class="topImg" id="topImage"></div>
+            <article class="netmarbleCompany">
+                <h2>넷마블컴퍼니는</h2>
+                <p>최고의 온라인 게임 퍼블리셔 넷마블과 </p>
+                <p>우수한 개발력을 보유한 게임 개발 스튜디오들이</p>
+                <p>하나되어 글로벌 게임 컴퍼니로 도약합니다.</p>
+            </article>
+            <aside class="tbArea">
+                <a href="#firstArea" class="topBtn">TOP</a>
+            </aside>
+        </section>
+    </header>
+    <section id="aboutArea" class="aboutArea">
+        <article class="aboutTitle">
+            <h2>ABOUT</h2>
+        </article>
+        <article class="aboutParagraph">
+            <p>
+                넷마블은 우수한 게임을 직접 개발하고
+            </p>
+            <p>
+                PC/ 모바일 게임 퍼블리싱 사업을 영위하는 
+            </p>
+            <p>
+                글로벌 게임 컴퍼니입니다.
+            </p>
+        </article>
+        <article class="netmarbleInfo">
+            <span class="infoBox cinBox1">
+                <span class="commInfo infoImg1">&nbsp; </span>
+                <span class="paragBox">
+                    <h3 class="infoTitle">
+                        게임 개발
+                    </h3>
+                    <p class="infoText">
+                        20여 개의 우수한 개발 스튜디오에서
+                        전 세계 모두가 즐길 수 있는
+                        최고의 게임을 만들고 있습니다.
+                    </p>
+                </span>
+            </span>
+            <span class="infoBox">
+                <span class="commInfo infoImg2">&nbsp; </span>
+                <span class="paragBox">
+                    <h3 class="infoTitle">
+                        게임 퍼블리싱
+                    </h3>
+                    <p class="infoText">
+                        업계 최초 PC게임 퍼블리싱을 시작으로
+                        최고의 모바일 게임서비스를 제공하고 있으며,
+                        국내 No.1 온라인게임 퍼블리셔를 넘어
+                        글로벌 No.1 온라인 게임사로 성장하고 있습니다.
+                    </p>
+                </span>
+            </span>
+            <span class="infoBox">
+                <span class="commInfo infoImg3">&nbsp; </span>
+                <span class="paragBox">
+                    <h3 class="infoTitle">
+                        글로벌 사업
+                    </h3>
+                    <p class="infoText">
+                        20여 개의 우수한 개발 스튜디오에서
+                        전 세계 모두가 즐길 수 있는
+                        최고의 게임을 만들고 있습니다.
+                    </p>
+                </span>
+            </span>
+        </article>
+        <article class="netmarbleInfo2">
+          <div class="centerInfo2">
+            <span class="commInfo2 visionArea">
+                <span class="commCircle visionCircle">
+                        비전
+                </span>
+                <pre>
+Greate Game
+Culture Company
+                </pre>
+            </span>
+            <span class="commInfo2 missionArea">
+                <span class="commCircle missionCircle">
+                        미션
+                </span>
+                <pre>
+We entertain the world
+with fun games.
+                </pre>
+            </span>
+          </div>
+        </article>
+        <article class="gameCollection">
+            <h3>GAMES</h3>
+            <div class="gameCenter">
+                <a href="https://a3.netmarble.com/landing" target="_blank" id="gameHover1"><div class="gameImg1">&nbsp;</div></a>
+                <a href="https://btsuniversestory.netmarble.com/ko/" target="_blank" id="gameHover2" ><div class="gameImg2">&nbsp;</div></a>
+                <a href="https://bns.netmarble.com/landing" target="_blank" id="gameHover3"><div class="gameImg3">&nbsp;</div></a>
+                <a href="https://magumagu2020.netmarble.com/" target="_blank" id="gameHover4"><div class="gameImg4">&nbsp;</div></a>
+                <div class="gameInfo" id="gameInfo">
+                    <p>이미지에 마우스를 올려보세요.<br>
+                        해당 이미지의 게임 정보를<br>
+                         확인하실 수 있습니다.<br>
+                    </p>
+                </div>
+                <a href="http://l2.netmarble.net/" target="_blank" id="gameHover5"><div class="commGame gameImg6">&nbsp;</div></a>
+                <a href="https://7ds.netmarble.com/" target="_blank" id="gameHover6"><div class="gameImg7">&nbsp;</div></a>
+                <a href="http://www.netmarble.net/mobile/sknights?tab=popular&page=1" target="_blank" id="gameHover7"><div class="commGame gameImg8">&nbsp;</div></a>
+                <a href="https://kofallstar.netmarble.net/ko/index" target="_blank" id="gameHover8"><div class="commGame gameImg9">&nbsp;</div></a>
+            </div>
+        </article>
+    </section>
+    <section class="historyArea" id="historyArea">
+        <article class="historyTitle">
+            <h2>연혁</h2>
+        </article>
+        <article class="historyContents">
+            <div class="visionParagraph">
+                <p>
+                    넷마블은 재미있는 게임으로 
+                <p>
+                    전세계 사람들에게 즐거움을 선사하며
+                </p>
+                <p>
+                    글로벌 게임문화를 이끌어 나갑니다.
+                </p>
+            </div>
+            <div class="btnBox">
+                <a class="leftBtn" id="leftBtn"><i class="fas fa-chevron-left"></i></a>
+                <a class="rightBtn" id="rightBtn"><i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="contentsBox">
+                <div class="totalHistory" id="totalHistory">
+                 <div class="innerHistory FirstHistory">
+                    <h2>2019</h2>
+                    <span>12</span>
+                    <p>
+                        넷마블문화재단, '2019 장애인먼저실천상' 대상 수상
+                    </p>
+                    <span>11</span>
+                    <p>
+                        넷마블, 2019 대한민국 게임대상 4개 부문 수상
+                    </p>
+                    <span>10</span>
+                    <p>
+                        넷마블, 포괄임금제 폐지<br>
+                        넷마블, ‘2019 대한민국 하이스트 브랜드’4년 연속 게임부문 1위
+                    </p>
+                    <span>03</span>
+                    <p>넷마블문화재단, 게임업계 최초 ‘넷마블장애인선수단’ 창단<br>
+                        넷마블, '2019 대한민국 브랜드스타' 게임 부문 1위
+                    </p>
+                 </div> 
+                 <div class="innerHistory">
+                    <h2>2018</h2>
+                    <span>12</span>
+                    <p>모바일 MMORPG '블레이드&소울 레볼루션' 국내 정식 출시
+                    </p>
+                    <span>09</span>
+                    <p>
+                        정보보안 국제표준 ‘ISO27001’인증 획득
+                    </p>
+                    <span>05</span>
+                    <p>(주)빅히트 엔터테인먼트 지분 투자
+                    </p>
+                    <span>03</span>
+                    <p>임직원 워라벨향상 위한 ‘선택적 근로제' 시행
+                    </p>
+                    <span>01</span>
+                    <p>	넷마블, 2017년 글로벌 모바일 퍼블리셔 3위 기록<br>
+                        넷마블문화재단 출범
+                    </p>
+                 </div>
+                 <div class="innerHistory">
+                    <h2>2017</h2>
+                    <span>12</span>
+                    <p>넷마블, 대한민국 100대 브랜드 선정(BSTI)
+                    </p>
+                    <span>11</span>
+                    <p>2017 대한민국 게임대상 2관왕: ‘최우수상 리니지2 레볼루션, 인기상 펜타스톰’
+                    </p>
+                    <span>08</span>
+                    <p>	‘리니지2 레볼루션’ 일본 앱스토어 최고매출 1위 달성
+                    </p>
+                    <span>05</span>
+                    <p>	넷마블게임즈 유가증권시장(KOSPI) 상장
+                    </p>
+                    <span>02</span>
+                    <p>美 카밤 밴쿠버 스튜디오 인수
+                    </p>
+                 </div>
+                 <div class="innerHistory">
+                    <h2>2016</h2>
+                    <span>12</span>
+                    <p>	
+                        넷마블 ‘대한민국 콘텐츠 대상 해외진출(수출)유공 부문’ 국무총리표창 수상
+                    </p>
+                    <span>11</span>
+                    <p>2016 대한민국 게임대상 2관왕: 최우수상 스톤에이지, 사회공헌우수상
+                    </p>
+                    <span>07</span>
+                    <p>스톤에이지 양대마켓 매출 순위 1위 달성
+                    </p>
+                    <span>06</span>
+                    <p>넷마블, 산업단지공단과 G밸리 지스퀘어 개발 업무협약 체결
+                    </p>
+                    <span>01</span>
+                    <p>세븐나이츠 G-Rank 시상식 '이달의 게임' 선정
+                    </p>
+                 </div>
+                 <div class="innerHistory">
+                    <h2>2015~2011</h2>
+                    <span>2015 - 11</span>
+                    <p>레이븐 대한민국 게임대상 수상(6관왕)
+                    </p>
+                    <span>2014 - 10</span>
+                    <p>넷마블게임즈㈜ 설립 (CJ넷마블㈜과 CJ게임즈㈜ 합병)
+                    </p>
+                    <span>2014 - 06</span>
+                    <p>넷마블 모바일게임 1억 다운로드 돌파</p>
+                    <span>2013 - 07</span>
+                    <p>모두의마블 매출 순위 1위, 최단기간 천만 다운로드 달성
+                    </p>
+                    <span>2011 - 11</span>
+                    <p>누리엔소프트 인수, 자회사 편입<br>
+                        넷마블엔투(前 엔투플레이) 설립<br>
+                        개발 지주사 CJ게임즈㈜ 설립
+                    </p>
+                 </div>
+                 <div class="innerHistory">
+                    <h2>2010~2006</h2>
+                    <span>2010 - 05</span>
+                    <p>넷마블 가입자 3천만 명 돌파
+                    </p>
+                    <span>2009 - 03</span>
+                    <p>국내 프로야구 공식 스폰서 &lt;2009-2010 CJ 마구마구 프로야구&gt;</p>
+                    <span>2008 - 11</span>
+                    <p>서든어택 국내 PC온라인게임 사상 최장기 1위 달성
+                    </p>
+                    <span>2007 - 11</span>
+                    <p>대한민국 게임대상 '쿵야 어드벤처' 3개 부문 수상
+                    </p>
+                    <span>2006 - 01</span>
+                    <p>서든어택 동시접속자 25만명, 넷마블 동시접속자 43만 명 돌파
+                    </p>
+                 </div>
+                 <div class="innerHistory">
+                    <h2>2005~2000</h2>
+                    <span>2005 - 12</span>
+                    <p>올해의 인터넷 기업 대상(정보통신부 장관상)
+                    </p>
+                    <span>2003 - 12</span>
+                    <p>	대한민국 게임대상 &lt;야채부락리&gt; 2개 부문 수상</p>
+                    <span>2002 - 04</span>
+                    <p>캐치마인드 유료화 - 최초의 게임 부분유료화 모델 도입</p>
+                    <span>2001 - 01</span>
+                    <p>업계 최초 온라인게임 퍼블리싱 사업 개시 (라그하임)</p>
+                    <span>2000 - 11</span>
+                    <p>최초의 게임 포털 '넷마블' 서비스 시작</p>
+                 </div>
+               </div>
+            </div>
+        </article>
+    </section>
+    <section class="contributionArea" id="contributionArea">
+        <article class="contributionTitle">
+            <h2>사회공헌</h2>
+        </article>
+        <article class="contributionDirectional tabMenu">
+            <h3>방향성</h3>
+            <p class="cDtext">
+                넷마블문화재단을 통해 우리 사회 미래경쟁력 향상을 목표로 지속적인 사회공헌 활동을 전개하고 있습니다.
+            </p>
+            <span class="cDGoal">
+                <h5>목적</h5><p>문화적 가치 확산을 통한 우리 사회 미래경쟁력 제고</p>
+            </span>
+            <h4>집중 영역</h4>
+            <a class="cDCard tabLinks firstCard" onclick="openContribute(event, 'divisionCulture')" id="defaultOpen">
+                <i class="fas fa-hands"></i>
+                <h4>문화 만들기</h4>
+                <p>
+                    자세히 보기
+                </p>
+            </a>
+            <a class="cDCard tabLinks secondCard" onclick="openContribute(event, 'humanResource')">
+                <i class="fas fa-brain"></i>
+                <h4>인재 키우기</h4>
+                <p>
+                    자세히 보기
+                </p>
+            </a>
+            <a class="cDCard tabLinks thirdCard" onclick="openContribute(event, 'heartSharing')">
+                <i class="fas fa-hand-holding-heart"></i>
+                <h4>마음 나누기</h4>
+                <p>
+                    자세히 보기
+                </p>
+            </a>
+        </article>
+        <article class="contributionActivities">
+            <div id="divisionCulture" class="tabContent divisionCulture">
+                <h4>다 함께 즐길 수 있는 건강한 게임문화 기반 조성</h4>
+                <p>
+                    신체적·사회적 특성과 상관 없이 즐길 수 있는 건강한 여가로서의 게임문화를 조성 및 확산하는 것을 목표로 게임문화체험관,
+                    장애학생 e페스티벌 등 다양한 활동을 전개하고 있습니다.
+                </p>
+                <div class="inContents">
+                    <h5>
+                        게임문화체험관
+                    </h5>
+                    <img src="img/gameculture.jpg" alt="게임문화체험" class="gameCulture">
+                    <ul>
+                        <li>장애학생들에게 다양한 여가문화 체험 기회 지원</li>
+                        <li>전국 특수학교 내 게임을 체험할 수 있는 공간 설비 및 장비·기기 기증</li>
+                        <li>2008년부터 현재까지 30개 체험관 개설</li>
+                        <li>두뇌와 신체를 함께 움직여야 하는 게임을 통해 학습능력 및 체력
+                            증진
+                        </li>
+                    </ul>
+                </div>
+                <div class="inContents">
+                    <h5>
+                        전국 장애학생 e페스티벌
+                    </h5>
+                    <img src="img/activeinfo2.jpg" alt="전국 장애학생 e페스티벌" class="gameCulture">
+                    <ul>
+                        <li>전국 장애학생, 교사, 일반학생이 함께 참여하는 e페스티벌 개최</li>
+                        <li>2009년부터 국립특수교육원, 한국콘텐츠 진흥원과 협력하여 진행</li>
+                        <li>게임이라는 매개체를 통해 장애에 구애 없이 선의의 경쟁 진행</li>
+                        <li>장애학생의 자존감 및 성취감 고양
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div id="humanResource" class="tabContent humanResource">
+                <h4>게임산업의 가치 전파 및 체험기회 지원</h4>
+                <p>
+                    미래를 이끌어나갈 청소년들이 게임산업 및 직군에 대해 올바르게 이해하고 관련 지식과 경험을 쌓아나갈 수 있도록 게임아카데미, 견학 프로그램과 같은 프로그램을 개발 및 진행하고 있습니다.
+                </p>
+                <div class="inContents">
+                    <h5>
+                        게임아카데미
+                    </h5>
+                    <img src="img/gameacademy.jpg" alt="게임아카데미" class="academyImg">
+                    <ul>
+                        <li>게임진로를 희망하는 중고생 대상 게임산업/직군 관련 전문교육 지원</li>
+                        <li>게임 구성 요소에 대한 인문학적 탐구 및 게임 개발 과정에 대한 심화 교육 진행</li>
+                        <li>교육 후 학생들이 만든 게임 작품으로 전시회 개최</li>
+                    </ul>
+                </div>
+                <div class="inContents">
+                <h5>
+                    견학프로그램
+                </h5>
+                <img src="img/activeinfo4.jpg" alt="견학프로그램" class="academyImg">
+                <ul>
+                    <li>월 1회, 게임진로에 관심 있는 고등학생 및 대학생을 대상으로
+                        사옥 견학 운영</li>
+                    <li>임직원들의 전문적인 멘토링과 업무현장 방문을 통해 게임직무에
+                        대한 이해 증진</li>
+                    <li>여름/겨울 방학기간에는 임직원 자녀 대상 견학 진행
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <div id="heartSharing" class="tabContent heartSharing">
+                <h4>이해관계자 참여/나눔</h4>
+                <p>
+                    게임이용자, 임직원 등 이해관계자들을 대상으로 봉사활동, 기부 등 다양한 참여 기회를 마련함으로써 넷마블 사회공헌 활동에 대한 이해와 공감을
+높이고 즐거운 나눔 문화를 확산하고 있습니다.
+                </p>
+                <div class="inContents">
+                    <h5>
+                        어깨동무문고
+                    </h5>
+                    <img src="img/mungo.jpg" alt="어깨동무문고" class="mungoImg">
+                    <ul>
+                        <li>장애인에 대한 편견 해소 및 올바른 인식 확립을 위해 교육용
+                            동화책 제작
+                        </li>
+                        <li>전국 초등학교 아동들을 대상으로 동화책 배포 및 관련 교육 진행
+
+                        </li>
+                        <li>2016년부터는 점자동화책 등을 추가로 제작하여 장애에 대한
+                            이해 증진
+                        </li>
+                    </ul>
+                </div>
+                <div class="inContents">
+                    <h5>
+                        참여 &amp; 나눔활동
+                    </h5>
+                    <img src="img/activeinfo6.jpg" alt="참여 &amp; 나눔활동" class="mungoImg">
+                    <ul>
+                        <li>차구차구 연계 축구유니폼 지원, 몬스터 길들이기 연계 소방장갑
+                            기부 등 게임이용자 나눔이벤트 진행
+                        </li>
+                        <li>봉사활동 및 기부 등 사내 활동을 통해 임직원들이
+                            나눔을 실천할 수 있는 기회 마련
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="mapArea" id="mapArea">
+        <article class="mapTitle">
+            <h2>오시는 길</h2>
+        </article>
+        <article class="mapBox">
+            <!-- 카카오 맵 약도 노드 -->
+            <div id="daumRoughmapContainer1601708114118" class="mapImg root_daum_roughmap root_daum_roughmap_landing"></div>
+            <span class="mapParagraph">
+                <h5>주소</h5><p>&nbsp;: 서울시 구로구 디지털로 300 지밸리플라자 20층 </p>
+                <h5>대표전화</h5><p>&nbsp;: 02-2271-7114</p>
+                <hr>
+                <h5>IR 문의</h5><p>&nbsp;: 1588-5180 (3번 기타 상담 연결)</p>
+                <h5>고객센터</h5><p>&nbsp;: 1588-5180</p>
+                <h5>운영시간</h5><p>&nbsp;: 월~금요일 09:00~18:00<br>(공휴일과 토/일요일은 제외)</p>
+            </span>
+        </article>
+    </section>   
+
+    <footer>
+        <p>
+            &copy; Netmarble Corp. All Rights Reserved
+        </p>
+    </footer>
+    <script>
+        let topImgPosition = -100;
+        let marginPointer = 0;
+
+        function moveImg(){
+            let topImg = document.getElementById("topImage");
+
+            if(marginPointer == 0){
+                topImg.style.backgroundPositionX = --topImgPosition + "px";
+                if(topImgPosition<(-1250)){
+                    marginPointer = 1;
+                }
+            }else{
+                topImg.style.backgroundPositionX = ++topImgPosition + "px";
+                if(topImgPosition>(-220)){
+                    marginPointer = 0;
+                }
+            }
+        }
+        setInterval('moveImg()', 40);
+
+        let i = 0;
+        $('#rightBtn').click(function(){
+            if(i < 4){
+                i++;
+                $('#totalHistory').css("margin-left",((-370)*i)+"px");
+                $('#totalHistory').css("transition","0.4s linear");
+            }
+        });
+        $('#leftBtn').click(function(){
+            if(i > 0){
+                i--;
+                $('#totalHistory').css("margin-left",((-370)*i)+"px");
+                $('#totalHistory').css("transition","0.4s linear");
+            }
+        });
+
+        $('#gameHover1').hover(function(){
+            $('#gameInfo').html("<p>\"MMORPG\"와 \"배틀로얄\"의 융합!<br>\"A3:스틸얼라이브\"로<br> 만나 보세요!</p>");
+        }, function(){
+            $('#gameInfo').html("<p>이미지에 마우스를 올려보세요.<br>해당 이미지의 게임 정보를<br>확인하실 수 있습니다.<br></p>");
+        });
+
+        $('#gameHover2').hover(function(){
+            $('#gameInfo').html("<p>너만의 이야기, 우리의 우주가 되다.<br>함께 만드는 우리만의 세계, <br>BTS Universe Story 정식 오픈!</p>");
+        }, function(){
+            $('#gameInfo').html("<p>이미지에 마우스를 올려보세요.<br>해당 이미지의 게임 정보를<br>확인하실 수 있습니다.<br></p>");
+        });
+
+        $('#gameHover3').hover(function(){
+            $('#gameInfo').html("<p>완성을 넘어 혁명적!<br>마침내 모바일로 완성한 MMORPG!<br>'블레이드&소울 레볼루션'</p>");
+        }, function(){
+            $('#gameInfo').html("<p>이미지에 마우스를 올려보세요.<br>해당 이미지의 게임 정보를<br>확인하실 수 있습니다.<br></p>");
+        });
+
+        $('#gameHover4').hover(function(){
+            $('#gameInfo').html("<p>모바일 No.1 야구 게임,<br>마구마구 2020<br>이젠 모바일에서 ‘마구’ 붙자!</p>");
+        }, function(){
+            $('#gameInfo').html("<p>이미지에 마우스를 올려보세요.<br>해당 이미지의 게임 정보를<br>확인하실 수 있습니다.<br></p>");
+        });
+
+        $('#gameHover5').hover(function(){
+            $('#gameInfo').html("<p>리니지2 레볼루션 정식오픈<br>시공간 제약 없는 거대한 오픈 필드에서<br>펼쳐지는 진짜 MMORPG!</p>");
+        }, function(){
+            $('#gameInfo').html("<p>이미지에 마우스를 올려보세요.<br>해당 이미지의 게임 정보를<br>확인하실 수 있습니다.<br></p>");
+        });
+
+        $('#gameHover6').hover(function(){
+            $('#gameInfo').html("<p>모험 그 이상, 초대형 어드벤처 RPG<br>지금까지 어디에서도 본 적 없는<br> 새로운 게임의 등장!</p>");
+        }, function(){
+            $('#gameInfo').html("<p>이미지에 마우스를 올려보세요.<br>해당 이미지의 게임 정보를<br>확인하실 수 있습니다.<br></p>");
+        });
+
+        $('#gameHover7').hover(function(){
+            $('#gameInfo').html("<p>비주얼이 다른 전략! <br>거부할 수 없는 초강력 비주얼 RPG<br>세븐나이츠</p>");
+        }, function(){
+            $('#gameInfo').html("<p>이미지에 마우스를 올려보세요.<br>해당 이미지의 게임 정보를<br>확인하실 수 있습니다.<br></p>");
+        });
+
+        $('#gameHover8').hover(function(){
+            $('#gameInfo').html("<p>쉬운 조작, 극강의 타격감!<br>고퀄리티 그래픽으로 극강의 타격감을<br> 즐길 수 있는 액션 RPG</p>");
+        }, function(){
+            $('#gameInfo').html("<p>이미지에 마우스를 올려보세요.<br>해당 이미지의 게임 정보를<br>확인하실 수 있습니다.<br></p>");
+        });
+
+        $('.firstCard').hover(function(){
+            $('.firstCard').children('.fa-hands').css("color","rgb(186, 5, 5)");
+            $('.firstCard').children('.fa-hands').css("transition","0.5s linear");
+
+        }, function(){
+            $('.firstCard').children('.fa-hands').css("color","orange");
+            $('.firstCard').children('.fa-hands').css("transition","0.5s linear");
+        });
+
+        $('.secondCard').hover(function(){
+            $('.secondCard').children('.fa-brain').css("color","rgb(186, 5, 5)");
+            $('.secondCard').children('.fa-brain').css("transition","0.5s linear");
+
+        }, function(){
+            $('.secondCard').children('.fa-brain').css("color","orange");
+            $('.secondCard').children('.fa-brain').css("transition","0.5s linear");
+        });
+
+        $('.thirdCard').hover(function(){
+            $('.thirdCard').children('i').css("color","rgb(186, 5, 5)");
+            $('.thirdCard').children('i').css("transition","0.5s linear");
+
+        }, function(){
+            $('.thirdCard').children('i').css("color","orange");
+            $('.thirdCard').children('i').css("transition","0.5s linear");
+        });
+
+        function openContribute(event, eventName){
+            let i, tabLinks;
+            let tabContent = document.getElementsByClassName("tabContent");
+            for(i=0; i<tabContent.length; i++){
+                tabContent[i].style.display="none";
+            }
+            tabLinks = document.getElementsByClassName("tabLinks");
+            for(i=0; i<tabLinks.length; i++){
+                tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+            }
+            document.getElementById(eventName).style.display = "block";
+            event.currentTarget.className += " active";
+        }
+        document.getElementById("defaultOpen").click();
+       /* 카카오 맵 실행 스크립트*/
+        new daum.roughmap.Lander({
+		"timestamp" : "1601708114118",
+		"key" : "22ahi"
+	}).render();
+    </script>
+</body>
+</html>

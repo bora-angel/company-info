@@ -1,0 +1,181 @@
+*{margin:0px; padding:0px;
+    font-family: 'Noto Sans KR', sans-serif;
+    border:1px solid red;
+    box-sizing:border-box;
+    text-decoration: none;
+    }
+    
+/*        a:visited, a:link{
+        color:black;
+    }*/
+    .body, html{
+        width:100%;
+        height:100%;
+    }
+    .topMenu{
+        width:100%;
+        height:60px;
+        background-color:transparent;
+        overflow: hidden;
+        position:fixed;
+        z-index:1000;
+    }
+    .topCenter{
+        width:1440px;
+        margin:0 auto;
+    }
+    .logoA{
+        margin-top:13px;
+        margin-left:70px;
+        float:left;
+    }
+    .topLogo{
+        width:171px;
+        height:30px;
+    }
+    .menuArea{
+        margin-left:720px;
+        width:650px;
+        height:60px;
+    }
+    .commMenu{
+        float:left;
+        font-size:17px;
+        line-height:60px;
+        margin-left:30px;
+        text-align:center;
+        width:70px;
+        list-style-type:none;
+    }
+    .firstArea{
+        width:100%;
+        height:800px;
+    }
+    .topImg{
+        width:100%;
+        height:800px;
+        margin:0 auto;
+    }
+    .newsStock{
+        width:100%;
+        margin-top:50px;
+    }
+    .newsArea{
+        margin:0 auto;
+        width:1440px;
+        height:205px;
+    }
+    .newsTop{
+        font-size:20px;
+        margin-left:30px;
+    }
+    .commNews{
+        width:420px;
+        height:120px;
+        font-size:20px;
+        float:left;
+        list-style-type:none;
+        margin-top:25px;
+        margin-left:30px;
+    }
+    .newsTitle{
+        font-size:16px;
+    }
+    .newsDate{
+        margin-top:10px;
+        font-size:10px;
+        color:grey;
+    }
+    .newsContent{
+        margin-top:10px;
+        font-size:13px;
+        height:50px;
+        color:grey;
+        overflow: hidden;
+        white-space:nowrap;
+        text-overflow:ellipsis;
+    }
+    .stockArea{
+        margin:0 auto;
+        width:1440px;
+        height:230px;
+    }
+    .stockTop{
+        font-size:20px;
+        margin-left:30px;
+    }
+    .stockStyle{
+        margin-top:20px;
+        margin-left:30px;
+        width:1350px;
+    }
+    .gameArea{
+        margin:0 auto;
+        width:1440px;
+        height:460px;
+    }
+    .gameTop{
+        font-size:20px;
+        margin-left:30px;
+        margin-bottom:25px;
+    }
+    .totalGame{
+        margin:0 auto;
+        width:1100px;
+        height:370px;
+    }
+    .commGame{
+        float:left;
+    }
+    .gameImg{
+        display:inline-block;
+        width:500px;
+        height:280px;
+    }
+    .moreGames{
+        font-size:18px;
+        float:right;
+        color:grey;
+    }
+    .moreGames:visited, .moreGames:link{
+        color:grey;
+    }
+    footer{
+        width:1440px;
+        height:60px;
+        margin:0 auto;
+        padding-top:10px;
+        padding-bottom:80px;
+        font-size:15px;
+    }
+    .footLi{
+        float:left;
+        list-style-type:none;
+        margin-left:20px;
+    }
+    .footerRight{
+        margin-top:-20px;
+        clear:both;
+        float:right;
+    }
+    .commIcon{
+        float:left;
+        width:20px;
+        height:20px;
+        margin-top:2px;
+        margin-right:20px;
+        border:1px solid pink
+    }
+    .famSite{
+        color:grey;
+        width:100px;
+        height:20px;
+        margin-top:-15px;
+        margin-right:20px;
+    }
+    address{
+        clear:both;
+        color:grey;
+        font-style:normal;
+        margin-left:20px;
+    }

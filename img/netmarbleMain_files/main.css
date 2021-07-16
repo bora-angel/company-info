@@ -1,0 +1,486 @@
+*{margin:0px; padding:0px;
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing:border-box;
+    text-decoration: none;
+    }
+    
+    a:visited, a:link{
+        color:black;
+    }
+    .body, html{
+        width:100%;
+        height:100%;
+    }
+    .topMenu{ /**/
+        width:100%;
+        height:60px;
+        background-color: white;    
+        border-bottom:1px solid lightgrey;   
+        overflow: hidden;
+        position:fixed;
+        z-index:1000;
+    }
+    .topCenter{
+        width:100%;
+        margin:0 auto;
+    }
+    .logoA{
+        margin-top:13px;
+        margin-left:300px;
+        float:left;
+    }
+    .topLogo{
+        width:171px;
+        height:30px;
+    }
+    .menuArea{
+        float:right;
+        margin-right:200px;
+        height:60px;
+    }
+    .commMenu{
+        float:left;
+        font-size:18px;
+        line-height:60px;
+        margin-left:50px;
+        text-align:center;
+        width:100px;
+    }
+    .firstArea{
+        padding-top:60px;
+        width:100%;
+        height:800px;
+    }
+    .portfolioP{
+        display:inline-block;
+        margin-left:210px;
+        margin-top:15px;
+        font-size:20px;
+        color:rosybrown;
+        font-weight: bold;
+    }
+    .topImg{
+        width:100%;
+        height:800px;
+        background-image: url(./img/top1.jpg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .topCover{
+        width:100%;
+        height:800px;
+        position:absolute;
+        background-image: url(./img/top_cover.png);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .netmarbleCompany{
+        position: absolute;
+        z-index:300px;
+        top:30%;
+        right:20%;
+    }
+    .topBtn{
+        width:50px;
+        height:50px;
+        background-color:rgba(128, 128, 128, 0.502);
+        opacity:0.9;
+        border-radius:50%;
+        font-size:15px;
+        color:#fff;
+        line-height:50px;
+        font-weight: bold;
+        text-align:center;
+        float:right;
+        bottom:20px;
+        right:20px;
+        position:fixed;
+    }
+    .aboutArea{
+        width:100%;
+        margin:0 auto;
+        padding-top:60px;
+    }
+    .aboutTitle{
+        text-align:center;
+        color:rgb(186, 5, 5);
+        font-weight:bold;
+        font-size:70px;
+        line-height:142px;
+        margin-bottom:35px;
+    }
+    .aboutParagraph{
+        width:620px;
+        text-align:center;
+        font-size:26px;
+        line-height:43px;
+        margin:0 auto;
+    }
+    .netmarbleInfo{
+        padding-top:40px;
+        width:1200px;
+        height:400px;
+        margin:0 auto;
+    }
+    .infoBox{
+        float:left;
+        width:380px;
+        height:320px;
+    }
+    .commInfo{
+        float:left;
+        width:300px;
+        height:200px;
+        margin-left:45px;
+        margin-right:25px;
+    }
+    .paragBox{
+        display: inline-block;
+        width:300px;
+        height:110px;
+        margin-left:45px;
+    }
+    .infoTitle{
+        font-size:18px;
+    }
+    .infoText{
+        margin-top:10px;
+        font-size:14px;
+    }
+    .cinbox1{
+        margin-left:25px;
+    }
+
+    .infoImg1{
+        background-image:url("./img/about1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .infoImg2{
+        background-image:url("./img/about2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .infoImg3{
+        background-image:url("./img/about3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .netmarbleInfo2{
+        background-color: bisque;
+        width:1200px;
+        height:600px;
+        margin:0 auto;
+    }
+    .stockArea{
+        width:100%;
+        height:350px;
+    }
+    .stockArea h3{
+        text-align: center;
+        font-size:40px;
+        line-height: 60px;
+        color:rgb(34, 34, 34);
+    }
+    .stockCenter{
+        width:1200px;
+        height:350px;
+        margin:0 auto;
+    }
+    .rightNow{
+        text-align:right;
+        font-size:15px;
+        margin-right:100px;
+        color:grey;
+    }
+    .nowTable{
+        width:300px;
+        margin-top:70px;
+        margin-left:100px;
+        float:left;
+    }
+    .nowTable p{
+        width:300px;
+    }
+    .titlePrice{
+        font-size:25px;
+        color:grey;
+    }
+    .priceBottom{
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 100px;
+        color:rgba(165, 61, 42, 0.886)
+    }
+    .totalTable{
+        float:right;
+        margin-top:47px;
+        margin-right:100px;
+        width:300px;
+    }
+    .firstTr{
+        float:left;
+        width:300px;
+        border-bottom:1px solid lightgrey;    
+    }
+    .secondTr{
+        float:left;
+        width:300px;
+        border-bottom:1px solid lightgrey;    
+    }
+    .thirdTr{
+        float:left;
+        width:300px;
+        border-bottom:1px solid lightgrey;    
+    }
+    .rightStock{
+        display:inline-block;
+        font-size:20px;
+        line-height: 65px;
+        color:darkgrey;
+    }
+    .nextStock{
+        float:right;
+        font-size:20px;
+        line-height: 65px;
+        font-weight:bold;
+        color:grey;
+    }
+    .seperateMenu{
+        width:100%;
+        height:300px;
+        margin:0 auto;
+    }
+    .totalSeper{
+        width:1200px;
+        height:300px;
+        margin: 0 auto;
+    }
+    .commSeperate{
+        width:500px;
+        height:200px;
+        float:left;
+        margin-top:50px;
+        margin-left:67px;
+    }
+    .seperImg{
+        float:left;
+        width:250px;
+        height:200px;
+    }
+    .leftImg{
+        background-image:url("./img/operation.jpg");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .rightImg{
+        background-image:url("./img/contribution.jpg");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .rightBg{
+        float:left;
+        width:250px;
+        height:200px;
+        line-height:200px;
+        background-color:rgb(254, 97, 40);
+    }
+    .rightBg h4{
+        text-align: center;
+        color:whitesmoke;
+    }
+    .leftBg{
+        float:left;
+        width:250px;
+        height:200px;
+        line-height:200px;
+        background-color:rgb(252, 174, 27);
+    }
+    .leftBg h4{
+        text-align: center;
+        color:whitesmoke;
+    }
+    .careerMenu{
+        width:100%;
+        height:600px;
+        position: static;
+    }
+    .careerBox{
+        left:50%;
+        margin-left:-600px;
+        width:1200px;
+        height:600px;
+        position: absolute;
+    }
+    .careerImg{
+        float:left;
+        margin-top:100px;
+        margin-left:100px;
+        width:550px;
+        height:400px;
+        background-image:url("./img/career2.jpg");
+        background-position: 0% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 500;
+        position: absolute;
+    }
+    .careerParagraph{
+        margin-top:70px;
+        display:inline-block;
+        right:100px;
+        width:550px;
+        height:400px;
+        background-color:rgb(235, 235, 235);
+        position: absolute;
+        z-index: 500;
+        color:rgb(34, 34, 34);
+    }
+    .hireP{
+        margin-top:75px;
+        font-size:18px;
+        font-weight:bold;
+        line-height:35px;
+        text-align:center;
+        color:rgb(34, 34, 34);
+    }
+    .careerParagraph h2{
+        font-size:55px;
+        line-height:100px;
+        text-align:center;
+        color:rgb(34, 34, 34);
+    }
+    .hireLong{
+        font-size:15px;
+        line-height:40px;
+        text-align:center;
+        color:rgb(34, 34, 34);
+    }
+    .hireBtn{
+        margin-top:25px;
+        margin-left:200px;
+        width:150px;
+        height:50px;
+        line-height:48px;
+        font-weight:bold;
+        background-color: transparent;
+        border-radius:45px;
+        border:none;
+        border:0.5px solid rgb(34, 34, 34);
+    }
+    .gameArea{
+        width:100%;
+        height:500px;
+    }
+    .gameCollection{
+        margin:0 auto;
+        width:1200px;
+        height:500px;
+    }
+    .gameCollection h2{
+        text-align: center;
+        font-size:50px;
+        line-height: 60px;
+        color:rgb(34, 34, 34);
+    }
+    .gameCenter{
+        text-align: center;
+        margin-top:45px;
+        margin-left:55px;
+        width:1090px;
+        height:340px;
+    }
+    .commGame{
+        float:left;
+        margin-left:20px;
+        margin-top:20px;
+        width:350px;
+        height:100px;
+    }
+    .gameImg1{
+        float:left;
+        width:350px;
+        height:100px;
+        background-image:url("./img/game1.jpeg");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .gameImg2{
+        background-image:url("./img/game2.png");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .gameImg3{
+        background-image:url("./img/game3.png");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .gameImg4{
+        background-image:url("./img/game4.jpg");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .gameImg5{
+        background-image:url("./img/game5.png");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .gameImg6{
+        background-image:url("./img/game6.jpg");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .gameImg7{
+        background-image:url("./img/game7.jpg");
+        background-position: 50% 90%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .gameImg8{
+        background-image:url("./img/game8.jpg");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .gameImg9{
+        background-image:url("./img/game9.png");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .gameImg2, .gameImg3{
+        float:left;
+        margin-left:20px;
+        width:350px;
+        height:100px;
+    }
+    .gameImg4, .gameImg7{
+        float:left;
+        margin-top:20px;
+        width:350px;
+        height:100px;
+    }
+    footer{
+        width:1200px;
+        height:40px;
+        margin:0 auto;
+        padding-top:10px;
+        padding-bottom:35px;
+        font-size:15px;
+    }
+    footer p{
+        color:rgba(128, 128, 128, 0.735);
+        text-align: center;
+    }
